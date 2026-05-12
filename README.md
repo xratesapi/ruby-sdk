@@ -1,16 +1,26 @@
 # xratesapi
 
+[![Release](https://img.shields.io/github/v/release/xratesapi/ruby-sdk.svg)](https://github.com/xratesapi/ruby-sdk/releases)
+[![license](https://img.shields.io/github/license/xratesapi/ruby-sdk.svg)](https://github.com/xratesapi/ruby-sdk/blob/main/LICENSE)
+
 Official Ruby SDK for the [XRates exchange rate API](https://xratesapi.com).
 
 Ruby 2.7+ (3.x recommended), **zero third-party dependencies** (stdlib `net/http` only).
 
 ## Install
 
-```bash
-gem install xratesapi
+The gem is not yet published to RubyGems (registration is temporarily closed at the time of writing). Install directly from GitHub instead:
+
+```ruby
+# Gemfile
+gem "xratesapi", git: "https://github.com/xratesapi/ruby-sdk", tag: "v0.1.0"
 ```
 
-Or in your `Gemfile`:
+```bash
+bundle install
+```
+
+Once RubyGems is back, this becomes:
 
 ```ruby
 gem "xratesapi"
